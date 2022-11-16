@@ -1,0 +1,100 @@
+1 : Bitcoin : BTC : bitcoin
+1027 : Ethereum : ETH : ethereum
+825 : Tether : USDT : tether
+1839 : BNB : BNB : bnb
+3408 : USD Coin : USDC : usd-coin
+52 : XRP : XRP : xrp
+4687 : Binance USD : BUSD : binance-usd
+74 : Dogecoin : DOGE : dogecoin
+2010 : Cardano : ADA : cardano
+5426 : Solana : SOL : solana
+3890 : Polygon : MATIC : polygon
+6636 : Polkadot : DOT : polkadot-new
+5994 : Shiba Inu : SHIB : shiba-inu
+4943 : Dai : DAI : multi-collateral-dai
+1958 : TRON : TRX : tron
+7083 : Uniswap : UNI : uniswap
+5805 : Avalanche : AVAX : avalanche
+3717 : Wrapped Bitcoin : WBTC : wrapped-bitcoin
+3957 : UNUS SED LEO : LEO : unus-sed-leo
+2 : Litecoin : LTC : litecoin
+3794 : Cosmos : ATOM : cosmos
+1975 : Chainlink : LINK : chainlink
+4195 : FTX Token : FTT : ftx-token
+1321 : Ethereum Classic : ETC : ethereum-classic
+512 : Stellar : XLM : stellar
+3635 : Cronos : CRO : cronos
+328 : Monero : XMR : monero
+4030 : Algorand : ALGO : algorand
+6535 : NEAR Protocol : NEAR : near-protocol
+1831 : Bitcoin Cash : BCH : bitcoin-cash
+3155 : Quant : QNT : quant
+11419 : Toncoin : TON : toncoin
+3077 : VeChain : VET : vechain
+4558 : Flow : FLOW : flow
+2280 : Filecoin : FIL : filecoin
+4066 : Chiliz : CHZ : chiliz
+4172 : Terra Classic : LUNC : terra-luna
+6892 : Elrond : EGLD : elrond-egld
+4642 : Hedera : HBAR : hedera
+8916 : Internet Computer : ICP : internet-computer
+2502 : Huobi Token : HT : huobi-token
+18876 : ApeCoin : APE : apecoin-ape
+2011 : Tezos : XTZ : tezos
+6210 : The Sandbox : SAND : the-sandbox
+18679 : Chain : XCN : chain
+7278 : Aave : AAVE : aave
+1966 : Decentraland : MANA : decentraland
+2416 : Theta Network : THETA : theta-network
+1765 : EOS : EOS : eos
+2087 : KuCoin Token : KCS : kucoin-token
+3897 : OKB : OKB : okb
+21794 : Aptos : APT : aptos
+3330 : Pax Dollar : USDP : paxos-standard
+3602 : Bitcoin SV : BSV : bitcoin-sv
+11221 : BitDAO : BIT : bitdao
+1518 : Maker : MKR : maker
+6783 : Axie Infinity : AXS : axie-infinity
+2563 : TrueUSD : TUSD : trueusd
+1437 : Zcash : ZEC : zcash
+4256 : Klaytn : KLAY : klaytn
+16086 : BitTorrent-New : BTT : bittorrent-new
+2586 : Synthetix : SNX : synthetix
+19891 : USDD : USDD : usdd
+10791 : eCash : XEC : ecash
+1720 : IOTA : MIOTA : iota
+7186 : PancakeSwap : CAKE : pancakeswap
+5068 : Neutrino USD : USDN : neutrino-usd
+21296 : EthereumPoW : ETHW : ethereum-pow
+1376 : Neo : NEO : neo
+3513 : Fantom : FTM : fantom
+6719 : The Graph : GRT : the-graph
+2694 : Nexo : NEXO : nexo
+4705 : PAX Gold : PAXG : pax-gold
+8646 : Mina : MINA : mina
+4269 : GateToken : GT : gatetoken
+4157 : THORChain : RUNE : thorchain
+5665 : Helium : HNT : helium
+5964 : Trust Wallet Token : TWT : trust-wallet-token
+3306 : Gemini Dollar : GUSD : gemini-dollar
+6538 : Curve DAO Token : CRV : curve-dao-token
+8000 : Lido DAO : LDO : lido-dao
+1697 : Basic Attention Token : BAT : basic-attention-token
+131 : Dash : DASH : dash
+4846 : Kava : KAVA : kava
+2130 : Enjin Coin : ENJ : enjin-coin
+8642 : Fei USD : FEI : fei-usd
+12220 : Osmosis : OSMO : osmosis
+4847 : Stacks : STX : stacks
+9891 : BinaryX : BNX : binaryx
+5899 : Casper : CSPR : casper
+2469 : Zilliqa : ZIL : zilliqa
+1168 : Decred : DCR : decred
+2634 : XDC Network : XDC : xinfin
+8104 : 1inch Network : 1INCH : 1inch
+1274 : Waves : WAVES : waves
+2577 : Ravencoin : RVN : ravencoin
+9903 : Convex Finance : CVX : convex-finance
+2682 : Holo : HOT : holo
+7129 : TerraClassicUSD : USTC : terrausd
+1934 : Loopring : LRC : loopring
