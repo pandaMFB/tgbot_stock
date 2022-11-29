@@ -8,17 +8,17 @@ but_index = KeyboardButton('Index')
 
 mainMenu = ReplyKeyboardMarkup(resize_keyboard=True).add(but_stock, but_currency, but_index)
 
-but_stock_ru = KeyboardButton('MOEX market')
-but_stock_other = KeyboardButton('NASDAQ market')
+but_stock_ru = KeyboardButton('MOEX')
+but_stock_other = KeyboardButton('NASDAQ')
 
 stockMenu = ReplyKeyboardMarkup(resize_keyboard=True).add(but_stock_ru, but_stock_other, but_main)
 
-but_currency = KeyboardButton('/Standart_currency')
-but_currency_crypta = KeyboardButton('/Crypto_currency')
+but_currency_standart = KeyboardButton('Standart')
+but_currency_crypto = KeyboardButton('Crypto')
 
-currencyMenu = ReplyKeyboardMarkup(resize_keyboard=True).add(but_currency, but_currency_crypta, but_main)
+currencyMenu = ReplyKeyboardMarkup(resize_keyboard=True).add(but_currency_standart, but_currency_crypto, but_main)
 
-but_index_ru = KeyboardButton('/RU_index')
-but_index_other = KeyboardButton('/Nasdaq_index')
+but_index_ru = KeyboardButton('All list')
+but_index_other = KeyboardButton('Other')
 
 indexMenu = ReplyKeyboardMarkup(resize_keyboard=True).add(but_index_ru, but_index_other, but_main)

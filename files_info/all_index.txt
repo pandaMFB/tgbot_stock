@@ -1,0 +1,4 @@
+IMOEX;INDEX MOSBIRZHA;https://api.bcs.ru/udfdatafeed/v1/info?instruments=INDX|IMOEX&inOrderArray=true
+RTSI;INDEX RTS;https://api.bcs.ru/udfdatafeed/v1/info?instruments=RTSIDX|RTSI&inOrderArray=true
+NSDComposite;INDEX NASDAQ;https://api.bcs.ru/udfdatafeed/v1/info?instruments=FEX|NSDComposite&inOrderArray=true
+S%26P500;INDEX S&P500;https://api.bcs.ru/udfdatafeed/v1/info?instruments=FEX|S%26P500&inOrderArray=true

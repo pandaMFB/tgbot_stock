@@ -1,0 +1,11 @@
+Алюминий;AL3M;https://api.bcs.ru/udfdatafeed/v1/info?instruments=FEM%7CAL3M&inOrderArray=true
+Золото;Gold;https://api.bcs.ru/udfdatafeed/v1/info?instruments=FEG%7CGold&inOrderArray=true
+Медь;Copper3M;https://api.bcs.ru/udfdatafeed/v1/info?instruments=FEM%7CCopper3M&inOrderArray=true
+Нефть(Brent);BRENT;https://api.bcs.ru/udfdatafeed/v1/info?instruments=FEG%7CBRENT&inOrderArray=true
+Нефть(WTI);LCROIL;https://api.bcs.ru/udfdatafeed/v1/info?instruments=FEG%7CLCROIL&inOrderArray=true
+Никель;Nickel3M;https://api.bcs.ru/udfdatafeed/v1/info?instruments=FEM%7CNickel3M&inOrderArray=true
+Олово;Tin3M;https://api.bcs.ru/udfdatafeed/v1/info?instruments=FEM%7CTin3M&inOrderArray=true
+Палладий;PALLAD;https://api.bcs.ru/udfdatafeed/v1/info?instruments=FEG%7CPALLAD&inOrderArray=true
+Платина;Platinum;https://api.bcs.ru/udfdatafeed/v1/info?instruments=FEG%7CPlatinum&inOrderArray=true
+Серебро;Silver;https://api.bcs.ru/udfdatafeed/v1/info?instruments=FEG%7CSilver&inOrderArray=true
+Цинк;Zinc3M;https://api.bcs.ru/udfdatafeed/v1/info?instruments=FEM%7CZinc3M&inOrderArray=true

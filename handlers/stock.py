@@ -8,11 +8,11 @@ import json
 from time import sleep
 import keybords.client_kb as nav
 
-@dp.message_handler(lambda message: message.text and 'MOEX market' in  message.text, state=None)
+@dp.message_handler(lambda message: message.text and 'MOEX' in  message.text, state=None)
 async def stock_start(message: types.Message):
     await FSMAdmin.stock.set()
-    await message.reply("Enter the full or part name of the stock or its index"
-                        "'\n'For example index: VKCO/GAZP/YNDX")
+    await message.reply("\U000023F3Enter the full or part name of the stock or its index"
+                        "\n'For example index: VKCO/GAZP/YNDX")
 
 
 @dp.message_handler(Text(equals='Exit', ignore_case=True), state="*")
@@ -34,7 +34,7 @@ async def get_stock_infa(message: types.Message, state: FSMContext):
 
             if len(list_index_by_name) > 1:
 
-                await message.reply(f'Number of records found for your query: {len(list_index_by_name)}'
+                await message.reply(f'\U00002757Number of records found for your query: {len(list_index_by_name)}'
                                     f'\nThe name of the shares is the same, but their index is different')
 
                 sleep(1.5)
@@ -54,24 +54,23 @@ async def get_stock_infa(message: types.Message, state: FSMContext):
 
                             for name in list_name_of_index:
                                 sleep(0.5)
-                                await message.reply(f'Name: {name}'
-                                                    f'Currency: RUB\n'
-                                                    f'Index: {index}'
-                                                    '\n'
-                                                    f'\n Last price: {last_info_index}'
-                                                    f'\n Open price: {open_info_index}'
-                                                    f'\n High price today: {high_info_index}'
-                                                    f'\n Low price today: {low_info_index}'
-                                                    f'\n\n If you want to return to the menu press /Exit')
+                                await message.reply(f'\U000025FCName: {name}\n'
+                                                    f'\U000025FCCurrency: RUB\n'
+                                                    f'\U000025FCIndex: {index}\n'                                                    
+                                                    f'\n \U00002705Last price: {last_info_index}'
+                                                    f'\n \U00002705Open price: {open_info_index}'
+                                                    f'\n \U00002705High price today: {high_info_index}'
+                                                    f'\n \U00002705Low price today: {low_info_index}'
+                                                    f'\n\n \U000021A9If you want to return to the menu press /Exit')
                                 del list_name_of_index[0]
                                 break
                     else:
                         sleep(0.5)
                         del list_name_of_index[0]
-                        await message.reply(f"By index:{index} - no data")
+                        await message.reply(f"\U0000274CBy index:{index} - no data")
 
             else:
-                await message.reply(f'An entry was found for your request: {list_name_of_index[0]}')
+                await message.reply(f'\U000023F3An entry was found for your request: {list_name_of_index[0]}')
 
                 sleep(0.5)
 
@@ -85,27 +84,27 @@ async def get_stock_infa(message: types.Message, state: FSMContext):
                     high_info_index = item[11]
                     last_info_index = item[12]
 
-                await message.reply(f'Currency: RUB\n'
-                                    f'Index: {list_index_by_name[0]}'
-                                    '\n'
-                                    f'\n Last price: {last_info_index}'
-                                    f'\n Open price: {open_info_index}'
-                                    f'\n High price today: {high_info_index}'
-                                    f'\n Low price today: {low_info_index}'
-                                    f'\n\n If you want to return to the menu press /Exit')
+                await message.reply(f'\U000025FCName: {list_name_of_index[0]}\n'
+                                     f'\U000025FCCurrency: RUB\n'
+                                     f'\U000025FCIndex: {list_index_by_name[0]}\n'                                    
+                                     f'\n \U00002705Last price: {last_info_index}'
+                                     f'\n \U00002705Open price: {open_info_index}'
+                                     f'\n \U00002705High price today: {high_info_index}'
+                                     f'\n \U00002705Low price today: {low_info_index}'
+                                     f'\n\n \U000021A9If you want to return to the menu press /Exit')
 
         except:
             if message.text != '/Exit':
-                await message.reply("I don't have this stock\n Check stock name\U00002620 \n If you want to return to the menu press /Exit")
+                await message.reply("I don't have this stock\U000026D4\n Check stock name\U00002620 \n If you want to return to the menu press /Exit \U000021A9")
 
             else:
                 current_state = await state.get_state()
                 if current_state is None:
                     return
                 await state.finish()
-                await message.reply("Ok, You are out of the section RU market stock", reply_markup=nav.stockMenu)
+                await message.reply("\U0001F6B8Ok, You are out of the section RU market stock", reply_markup=nav.stockMenu)
 
 
 def register_handlers_ru_market(dp: Dispatcher):
-    dp.register_message_handler(stock_start, lambda message: message.text and 'MOEX market' in  message.text)
+    dp.register_message_handler(stock_start, lambda message: message.text and 'MOEX' in  message.text)
     dp.register_message_handler(get_stock_infa, content_types=['text'], state=FSMAdmin.stock)

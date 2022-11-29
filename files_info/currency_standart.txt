@@ -1,0 +1,33 @@
+Russian ruble;RUR
+USA dollar;USD
+EURO;EUR
+Pound sterling;GBP
+Australian dollar;AUD
+Azerbaijani manat;AZN
+Armenian dram;AMD
+Belarusian ruble;BYN
+Bulgarian lev;BGN
+Brazilian real;BRL
+Hungarian forint;HUF
+Republic of Korea Won;KRW
+Danish krone;DKK
+Indian rupee;INR
+Kazakhstani tenge;KZT
+Canadian dollar;CAD
+Kyrgyzstani som;KGS
+Chinese Yuan;CNY
+Moldovan leu;MDL
+New Romanian leu;RON
+New Turkmen manat;TMT
+Norwegian krone;NOK
+Polish zloty;PLN
+Singapore dollar;SGD
+Tajikistani somoni;TJS
+Turkish lira;TRY
+Uzbek Sum;UZS
+Ukrainian hryvnia;UAH
+Czech Crown; CZK
+Swedish krona;SEK
+Swiss franc; CHF
+South African rand;ZAR
+Japanese yen;JPY
